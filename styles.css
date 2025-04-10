@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+  background-color: #ffffff;
+  text-align: center;
+}
+.hero {
+  padding: 80px 60px;
+  background-color: white;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.text .subtext {
+  font-size: 16px;
+  color: #8e8e8e;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form input[type="email"] {
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid #f0f0f0;
+  border-radius: 999px; 
+  flex: 1;
+  min-width: 150px;
+  outline: none;
+}
+
+.form button {
+  padding: 10px 25px;
+  border: 2px solid #4F46E5;
+  border-radius: 999px; 
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #3730a3;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero, .why, .features, .cta {
+  padding: 4rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.subtext, p {
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.form input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.form button {
+  background-color: #4F46E5;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 100rem;
+  border: none;
+  cursor: pointer;
+}
+
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #1f1f1f;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1f1f1f;
+}
+
+.card p {
+  font-size: 14px;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+
+/* Specific card colors */
+.card.blue {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.card.lightblue {
+  background-color: #e4ecfc;
+}
+
+.card.yellow {
+  background-color: #fdeab7;
+}
+
+.card.blue h3,
+.card.blue p {
+  color: white;
+}
+
+.store-icons img {
+  width: 50px;
+  height: 40px;
+  margin-right: 15px;
+  vertical-align: center;
+}
+
+.trust-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.trust-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+.trust-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.circle-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.left-img {
+  background-image: url('Images/Image\ 4.jpg'); /* image of the woman in red */
+}
+
+.right-img {
+  background-image: url('Images/Image\ 5.jpg'); /* image of the smiling woman */
+}
+
+.number {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4c5eff;
+}
+.count {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 2rem;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
